@@ -1,13 +1,8 @@
-<div fxLayout = "row" fxLayoutGap = "10px">
-    <h1>Chinangol Portal</h1>
-    <h2>Sinotruk</h2>
-    <h3>Sinopec</h3>
-</div>
-<mat-toolbar>
+<mat-toolbar color="primary">
   <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
     <mat-icon>menu</mat-icon>
   </button>
-  <span>My App 11111</span>
+  <span>My App</span>
   <span class="example-spacer"></span>
   <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
     <mat-icon>favorite</mat-icon>
@@ -16,3 +11,10 @@
     <mat-icon>share</mat-icon>
   </button>
 </mat-toolbar>
+
+<div fxLayout = "row wrap" fxLayoutAlign = "space-between" fxLayoutGap = "10px" class="body">
+  <app-veiculo-detalhe titulo="Carrinha" foto="https://image.made-in-china.com/202f0j00kQlYsGvnHigc/Sinotruk-HOWO-4X2-6-Ton-Diesel-Engine-Light-Duty-Cargo-Truck.webp"></app-veiculo-detalhe>
+  <app-veiculo-detalhe titulo="Cavalo" foto="https://image.made-in-china.com/43f34j00LEaoBqjUsCup/2023-Sinotruk-430HP-Engine-HOWO-6X4-Prime-Mover-for-Sale-Price.jpg"></app-veiculo-detalhe>
+  <app-veiculo-detalhe titulo="Basculante" foto="https://image.made-in-china.com/202f0j00LuYUheNrVVpR/HOWO-Truck-Hot-Price-Sinotruk-6X4-290-371HP-Dumper-Tipper-Truck-Dump-Truck-for-HOWO-New-and-Used.webp"></app-veiculo-detalhe>
+  <app-veiculo-detalhe titulo="Cisterna" foto="https://image.made-in-china.com/202f0j00jUnGqBFEnpob/Sinotruk-HOWO-Zz5257n3847W-6X4-Water-Transport-Sprinkler-Tanker-Truck.jpg"></app-veiculo-detalhe>
+ </div>
