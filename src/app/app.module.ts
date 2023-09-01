@@ -9,11 +9,13 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
 import { VeiculoDetalheComponent } from './veiculo-detalhe/veiculo-detalhe.component';
+import { CarrosselComponent } from './carrossel/carrossel.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    VeiculoDetalheComponent
+    VeiculoDetalheComponent,
+    CarrosselComponent
   ],
   imports: [
     BrowserModule,
